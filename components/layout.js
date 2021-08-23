@@ -16,8 +16,8 @@ export default function Layout ({ children }) {
         <Box marginBottom="1.5rem">
           <main>{children}</main>
         </Box>
-      </Container>
       <Footer />
+      </Container>
     </>
   )
 }
