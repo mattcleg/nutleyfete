@@ -12,12 +12,8 @@ export default function Layout ({ children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <Container maxW="container.lg">
-        <Box marginBottom="1.5rem">
-          <main>{children}</main>
-        </Box>
+      <main>{children}</main>
       <Footer />
-      </Container>
     </>
   )
 }
