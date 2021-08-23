@@ -9,7 +9,7 @@ import { Button, ButtonGroup } from "@chakra-ui/react"
 const Home = ({data}) => {
   return (
     <>
-      <Heading as="h1" size="4xl" padding="20">Welcome to the nutley fete</Heading>
+      <Heading as="h1" size="4xl" padding="20">Testing Deployments</Heading>
       <Text padding="16">
         {data}
       </Text>
