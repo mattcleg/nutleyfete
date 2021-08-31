@@ -1,15 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/footer'
-import { Text, Heading } from '@chakra-ui/layout'
 
 const About = ({data}) => {
   return (
     <>
-        <Heading>About Us</Heading>
-      <Text>
+      <h2>About Us</h2>
           {data}
-      </Text>
     </>
   )
 }

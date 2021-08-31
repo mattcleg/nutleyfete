@@ -1,8 +1,3 @@
-import Head from 'next/head'
-import Header from '../components/header'
-import Footer from '../components/footer'
-import Image from 'next/image'
-import feteImage from '../public/images/nfhero.jpg'
 
 const Home = ({data}) => {
   return (
